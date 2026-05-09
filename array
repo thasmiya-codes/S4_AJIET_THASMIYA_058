@@ -1,0 +1,7 @@
+class Array {
+    public static void main(String[] args) {
+        int[] a={3,23,12,10,34};
+        for(int k : a)
+        System.out.println(k);
+    }
+}
