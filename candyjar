@@ -8,7 +8,9 @@ public class CandyJar {
             } else {
                 M -= order;
                 System.out.println("Sold: " + order + ", Left: " + M);
-                if (M <= K) M = N; 
+                if (M <= K) {
+                M = N; 
+                System.out.println("Jar refilled to " + M);}
             }
         }
     }
