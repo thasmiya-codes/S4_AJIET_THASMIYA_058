@@ -1,0 +1,7 @@
+class Array {
+    public static void main(String[] args) {
+        String g="ICB";
+        System.out.println(g);
+        System.out.println(g.length());
+    }
+}
