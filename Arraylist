@@ -2,12 +2,12 @@ import java.util.ArrayList;
 public class TestArrayList {
     public static void main(String[] args) {
         ArrayList<String> icb= new ArrayList<>();
-        icb.add("shruthi");
+        icb.add("thasmiya");
         System.out.println(icb);
         icb.add(0,"Me");
         System.out.println(icb);
         icb.get(1);
-        icb.set(1,"Paachu");
+        icb.set(1,"fathima");
         System.out.println(icb);
         icb.remove(0);
         System.out.println(icb);
