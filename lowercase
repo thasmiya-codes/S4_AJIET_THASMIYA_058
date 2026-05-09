@@ -1,0 +1,7 @@
+class LowerCase{
+    public static void main(String[] args) {
+        String g="COMPILER";
+        g.toLowerCase();
+        System.out.println(g.toLowerCase());
+    }
+}
