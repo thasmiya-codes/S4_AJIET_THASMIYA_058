@@ -1,0 +1,15 @@
+public class JEE {
+    public static void main(String[] args) {
+        int N = 6;
+        int[] ranks = {4,3,7,2,6,1};
+        int cuts = 0;
+        int register = ranks[0];  
+        for (int i = 1; i < N; i++) {
+            if (ranks[i] < register) {
+                cuts++;
+            }
+            register = ranks[i];
+        }
+        System.out.println(cuts);
+    }
+}
