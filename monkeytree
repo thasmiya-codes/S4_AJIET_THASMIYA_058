@@ -1,0 +1,19 @@
+public class MonkeyTree{
+    public static int monkeysLeft(int n, int m, int p, int k, int j) {
+        int ateBananas = m / k;
+        int atePeanuts = p / j;
+        int totalEaten = ateBananas+  atePeanuts;
+        if (m % k > 0 && p % j > 0) {
+            totalEaten++;
+        }
+        return Math.max(0, n - totalEaten);
+    }
+    public static void main(String[] args) {
+        int n = 20;  
+        int m = 12; 
+        int p = 12;  
+        int k = 2;   
+        int j = 3;   
+        System.out.println("Monkeys left on the tree: " + monkeysLeft(n, m, p, k, j));
+    }
+}
